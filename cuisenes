@@ -1,0 +1,142 @@
+<DOCTYPE>
+<html>
+    <head>
+        <title>Indian cuisenes</title>
+        <link rel="stylesheet" href="style.css" type="style /css">
+        <style>
+            body {
+                background-color: azure;
+            }
+    
+            header {
+                background-color: blueviolet;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+    
+            nav {
+                background-color: darkcyan;
+                position: sticky;
+                top: 0;
+                z-index: 2;
+                display: flex;
+                justify-content: center;
+            }
+    
+            .teacher-info {
+                border-radius: 5px;
+                margin: 10px;
+                width: 400px;
+                box-shadow: 6px 0px 21px -3px #333333;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+    
+            ul {
+                list-style-type: none;
+            }
+    
+            li a {
+                text-decoration: none;
+                color: darkkhaki;
+                font-size: 20px;
+                font-weight: 600;
+                margin: 0px;
+                border: 5px;
+            }
+    
+            li a :hover {
+                color: lightgreen;
+            }
+    
+            #intro {
+                background-color: aquamarine;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+    
+            main section h2 {
+                background-color: darkgrey;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 5px;
+                font-size: 24px;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+    
+            bestsellers,
+            footer {
+                background-color: greenyellow;
+            }
+    
+            header,
+            nav,
+            #intro,
+            #main section #best sellers,
+            footer {
+                border: 1px solid black;
+                border-radius: 10px;
+                margin: 10px;
+            }
+    
+            h1 {
+                color: antiquewhite;
+                font-size: 50px;
+                margin: 30px;
+            }
+        header {
+            grid-area: header;
+        }
+
+        nav {
+            grid-area: nav;
+        }
+
+        #intro {
+            grid-area: intro;
+        }
+
+        #main-section {
+            grid-area: main-section;
+        }
+
+        #bestseller {
+            grid-area: bestsellers;
+        }
+
+        footer {
+            grid-area: footer;
+        }
+        </style>
+    
+    </head>
+    
+    <body>
+        <div class="grid container">
+    
+            <header style="background-color: blue;">
+                <h1>
+                    indian cuisenes
+                </h1>
+                <img src="dosa.jpeg" alt="dosa" width="300">
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://www.youtube.com/">home</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/">more</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <P>
+            dosa is very famous in indian culuture.
+        </P>
+        <intro>
+            it is tasty
+        </intro>
+    </body>
+</html>
